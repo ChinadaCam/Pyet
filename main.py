@@ -10,13 +10,13 @@ messages = [ "https://github.com/ChinadaCam/Death-Unity-Script", "Death", "PY PY
 
 
 logo = f"""
-  {blue} ____       ____       ______      ______               __  __      __  __      ______      ______    __    __ {white}
-  {blue}/\  _`\    /\  _`\    /\  _  \    /\__  _\             /\ \/\ \    /\ \/\ \    /\__  _\    /\__  _\  /\ \  /\ \{white}
-  {blue}\ \ \/\ \  \ \ \L\_\  \ \ \L\ \   \/_/\ \/             \ \ \ \ \   \ \ `\\ \   \/_/\ \/    \/_/\ \/  \ `\`\\/'/{white}
-  {blue} \ \ \ \ \  \ \  _\L   \ \  __ \     \ \ \              \ \ \ \ \   \ \ , ` \     \ \ \       \ \ \   `\ `\ /' {white}
-  {blue}  \ \ \_\ \  \ \ \L\ \  \ \ \/\ \     \ \ \              \ \ \_\ \   \ \ \`\ \     \_\ \__     \ \ \    `\ \ \ {white}
-  {blue}   \ \____/   \ \____/   \ \_\ \_\     \ \_\              \ \_____\   \ \_\ \_\    /\_____\     \ \_\     \ \_\{white}
-  {blue}    \/___/     \/___/     \/_/\/_/      \/_/               \/_____/    \/_/\/_/    \/_____/      \/_/      \/_/{white}
+  {red} ____       ____       ______      ______               __  __      __  __      ______      ______    __    __ {white}
+  {red}/\  _`\    /\  _`\    /\  _  \    /\__  _\             /\ \/\ \    /\ \/\ \    /\__  _\    /\__  _\  /\ \  /\ \{white}
+  {white}\ \ \/\ \  \ \ \L\_\  \ \ \L\ \   \/_/\ \/             \ \ \ \ \   \ \ `\\ \   \/_/\ \/    \/_/\ \/  \ `\`\\/'/{white}
+  {white} \ \ \ \ \  \ \  _\L   \ \  __ \     \ \ \              \ \ \ \ \   \ \ , ` \     \ \ \       \ \ \   `\ `\ /' {white}
+  {white}  \ \ \_\ \  \ \ \L\ \  \ \ \/\ \     \ \ \              \ \ \_\ \   \ \ \`\ \     \_\ \__     \ \ \    `\ \ \ {white}
+  {red}   \ \____/   \ \____/   \ \_\ \_\     \ \_\              \ \_____\   \ \_\ \_\    /\_____\     \ \_\     \ \_\{white}
+  {red}    \/___/     \/___/     \/_/\/_/      \/_/               \/_____/    \/_/\/_/    \/_____/      \/_/      \/_/{white}
                                                                                  """
 
 
@@ -50,7 +50,7 @@ def main():
         print("\n" + logo + "\n")
         print("  Coded by Death Unity team - \"{}\"".format(random.choice(messages)))
         print()
-        print("  Developers: ChinadaCam \n  Owner: ChinadaCam ")
+        print("  Developers: ChinadaCam | Dam3 \n  Owner: ChinadaCam | Dam3")
         print()
         input("  Press ENTER to get on menu..")
         main()
