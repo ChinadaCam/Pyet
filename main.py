@@ -28,7 +28,7 @@ def main():
     print("  Coded by Death Unity Team - \"{}\"".format(random.choice(messages)))
     print()
     print("  Where do you wanna go")
-    print("\n  [1] Thing r\n  [2] Thing 2\n  [3] Open github page \n  [4] Credits\n  [5] Quit")
+    print("\n  [1] Network r\n  [2] Thing 2\n  [3] Open github page \n  [4] Credits\n  [5] Quit")
     try:
         question = int(input("  "))
     except Exception:
@@ -36,17 +36,17 @@ def main():
         time.sleep(2)
         main()
     if question == 1:
-         #some
+         #Networking
          pass
     elif question == 2:
         #some
         pass
     elif question == 3:
-        webbrowser.open_new("https://github.com/ChinadaCam/Death-Unity-Script")
+        webbrowser.open_new("https://github.com/ChinadaCam/Pyet")
         main()
     elif question == 4:
         os.system('cls')
-        ctypes.windll.kernel32.SetConsoleTitleW("Minecraft Checker - By ExtremeDev")
+        ctypes.windll.kernel32.SetConsoleTitleW("Pyet - v.0.0.1")
         print("\n" + logo + "\n")
         print("  Coded by Death Unity team - \"{}\"".format(random.choice(messages)))
         print()
